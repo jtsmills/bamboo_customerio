@@ -8,7 +8,7 @@ A [customer.io](https://www.customer.io) adapter for [Bamboo](https://github.com
 
   ```elixir
   def deps do
-    [{:bamboo_customerio, "~> 0.0.1"}]
+    [{:bamboo_customerio, "~> 0.0.2"}]
   end
   ```
 
