@@ -1,7 +1,7 @@
 defmodule BambooCustomerIO.Mixfile do
   use Mix.Project
 
-  @version "0.0.2"
+  @version "0.0.3"
   @source_url "https://github.com/jtsmills/bamboo_customerio"
 
   def project do
@@ -34,8 +34,8 @@ defmodule BambooCustomerIO.Mixfile do
 
   defp deps do
     [
-      {:bamboo, "~> 2.3.0"},
-      {:cowboy, "~> 2.6.1", only: [:test, :dev]},
+      {:bamboo, "~> 2.4"},
+      {:cowboy, "~> 2.6", only: [:test, :dev]},
       {:plug_cowboy, "~> 2.0", only: [:test, :dev]},
       {:ex_doc, "~> 0.19", only: :dev}
     ]
